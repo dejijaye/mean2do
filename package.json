@@ -1,0 +1,25 @@
+{
+  "name": "mean2do",
+  "version": "1.0.0",
+  "description": "Todo app using mea2n stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejijaye/mean2do.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dejijaye/mean2do/issues"
+  },
+  "homepage": "https://github.com/dejijaye/mean2do#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0"
+  }
+}
