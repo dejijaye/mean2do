@@ -16,6 +16,10 @@ var TaskService = (function () {
         this.http = http;
         console.log('Task Service Initialized...');
     }
+    TaskService.prototype.getTasks = function () {
+        return this.http.get('/api/tasks')
+            .map(function (res) { return res.json(); });
+    };
     TaskService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [http_1.Http])
