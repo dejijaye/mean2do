@@ -32,7 +32,7 @@ router.post('/task', function(req, res, next){
             "error": "Bad Data"
         });
     } else {
-        db.task.save(task, function(err, task){
+        db.tasks.save(task, function(err, task){
             if(err){
                 res.send(err);
             }
